@@ -173,3 +173,15 @@
   border: none;
   border-radius: 5px;
 }
+
+@media (max-width:700px){
+  .header .search-box {
+    width: 350px;
+  }
+  .search-box button {
+    width: 100px;
+  }
+  .header .login-info {
+    width: 10px;
+  }
+}
